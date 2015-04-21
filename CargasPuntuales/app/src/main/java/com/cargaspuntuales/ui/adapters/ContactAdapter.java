@@ -54,6 +54,7 @@ public class ContactAdapter extends RecyclerView.Adapter<ContactAdapter.ContactV
         public ContactViewHolder(View v) {
             super(v);
             vName = (TextView) v.findViewById(R.id.txtName);
+
             vSurname = (TextView) v.findViewById(R.id.txtSurname);
             vEmail = (TextView) v.findViewById(R.id.txtEmail);
             vTitle = (TextView) v.findViewById(R.id.title);
